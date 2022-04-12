@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <embed src="ww2.mp3" hidden="true" autostart="true" loop="true">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张瑞一的普普通通简历</title>
+    <style>
+    
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        body {
+            background-color: rgb(250, 220, 245);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    
+        .wrap{
+            position: relative;
+            width: 1300px;
+            height: 600px;
+            background-color: rgb(255,255,255);
+            box-shadow: 0 0 10px rgb(0,0,0,.5);
+            overflow: hidden;
+            border-radius: 0 0 30px 30px;
+        }
+        
+        .box-top{
+            position: relative;
+            width: 1300px;
+            height: 300px;
+            background-color: rgb(180,180,210);
+            display: flex;
+            justify-content: center;
+            transition: .5s;
+        }
+        .box-top::after{
+            content: '';
+            width: 40px;
+            height: 40px;
+            clip-path: polygon(50% 40%,0 0,100% 0);
+            background-color: rgb(180,180,210);
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            bottom: -38px;
+            z-index: 999;
+        }
+        .image{
+            position: absolute;
+            top: 20px;
+            width: 90px;
+            height: 90px;
+            background-image: url(ww.jpeg);
+            background-size: cover;
+            border: 5px solid rgb(140,140,170);
+            transition: .5s;
+        }
+      
+        .box-bottom,.box-bottom2{
+            position: absolute;
+            top: 300px;
+            width: 1300px;
+            height: 300px;
+            text-align: center;
+            transition: .5s;
+        }
+        .box-bottom h2{
+            display: block;
+            margin: 30px 0 10px 0;
+            font: 800 28px 'Hobo Std';
+        }
+        .box-bottom span{
+            font: 400 24px 'Giddyup Std';
+        }
+        .box-bottom h2::after{
+            content: '';
+            display: block;
+            width: 200px;
+            height: 2px;
+            background-color: #000;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%,4px);
+        }
+      
+        .box-bottom2{
+            top: 300px;
+            height: 220px;
+        }
+        .box-bottom2 li{
+            margin: 25px;
+            font: 800 20px 'OCR A Std';
+            transition: .2s;
+        }
+     
+        .wrap:hover .box-top{
+            height: 50px;
+        }
+        .wrap:hover .image{
+            width: 35px;
+            height: 35px;
+            border-width: 3px;
+            transform: translate(-140px,-15px);
+        }
+        .wrap:hover .box-bottom{
+            top: 300px;
+        }
+        .wrap:hover .box-bottom2{
+            top: 50px;
+        }
+        li:hover{
+            color:rgb(100,160,160)
+        }
+    </style>
+</head>
+
+<body>
+    <bgsound src="ww2.mp3" autostart="true" loop="10"></bgsound>
+    <div class="wrap">
+        <div class="box-top">
+            <div class="image"></div>
+        </div>
+        <div class="box-bottom">
+            <h2>Resume of Zry~~~~</h2>
+            <span>当然，这不是一个认真的Resume~~</span>
+        </div>
+        <div class="box-bottom2">
+            
+            <ul>
+                <table border="1" align="center" cellpadding="10" width="1300">
+                    <tr>
+                        <th colspan="7" bgcolor="" >张瑞一的普普通通简历~</th>
+                    </tr>
+            
+                    <tr>
+                        <th >姓名:</th>
+                        <td> 张瑞一</td>
+                        <th bgcolor="pink">年龄:</th>
+                        <td>20</td>
+                        <th bgcolor="pink">民族:</th>
+                        <td>汉</td>
+                        <td rowspan="3" width="100"<p> <img border="0"src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20190906%2F8dc87a82e4dd4696a370a31eabc6be03.jpeg&amp;refer=http%3A%2F%2F5b0988e595225.cdn.sohucs.com&amp;app=2002&amp;size=f9999,10000&amp;q=a80&amp;n=0&amp;g=0n&amp;fmt=auto?sec=1652289152&amp;t=604ecc8bed8847488666321923a79da2"width="200px" height="160px">
+                    </tr>
+            
+                    <tr>
+                        <th bgcolor="pink">出生日期:</th>
+                        <td>2001.11.17</td>
+                        <th bgcolor="pink">政治面貌:</th>
+                        <td>群众</td>
+                        <th bgcolor="pink">学校:</th>
+                        <td>上海对外经贸大学</td>
+                    </tr>
+            
+                    <tr>
+                        <th bgcolor="pink">专业:</th>
+                        <td>信息管理与信息系统</td>
+                        <th bgcolor="pink">籍贯:</th>
+                        <td>上海</td>
+                        <th bgcolor="pink">邮编:</th>
+                        <td>201900</td>
+                    </tr>
+            
+                    <tr>
+                         <th bgcolor="pink">爱好:</th>
+                         <td>总是随着时间而改变</td>
+                        
+                    </tr>
+            
+                    <tr>
+                         <th height="100" bgcolor="pink">自我介绍:</th>
+                         <td colspan="6">
+                       <p>坐标上海，年龄正在奔三的路上</p>
+                       <p>严重赖床爱好者，每天计划第二天减肥</p>
+                       <p>爱好广泛而持久得少，所有运动都会一点</p>
+                        </td>
+                    </tr>
+            
+                    <tr>
+                         <th height="100" bgcolor="pink">> 近期状态：</th>
+                         <td colspan="6">
+                        <p>深受疫情困扰，被封在家里出不去</p>
+                        <p>想出门吃的东西数不清，在夜里眨眼睛</p>
+                        <p>希望上海加油，早日动态清零</p>
+                    </tr>
+         
+                    <tr>
+                         <th height="100" bgcolor="pink">未来展望</th>
+                         <td colspan="6">
+                        <p>短期：想解封出去嗷嗷吃，买</p>
+                        <p>中期：好好学习争取能考上研究生，希望早日实现经济自由</p>
+                        <p>长期：中粮海景，汤臣一品（just dreaming。。。）</p>
+                    </tr>
+                </table>
+             
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
